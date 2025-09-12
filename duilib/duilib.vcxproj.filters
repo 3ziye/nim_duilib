@@ -43,9 +43,6 @@
     <Filter Include="RenderGdiPlus">
       <UniqueIdentifier>{36e9cdf8-f81c-44f3-8841-dfc3e02a50ba}</UniqueIdentifier>
     </Filter>
-    <Filter Include="RenderSkia">
-      <UniqueIdentifier>{0a39786a-5478-4647-b38c-4e57f94acfb4}</UniqueIdentifier>
-    </Filter>
     <Filter Include="third_party\xml">
       <UniqueIdentifier>{94f29640-b8f0-4c7e-ad1d-dae80f83d3f5}</UniqueIdentifier>
     </Filter>
@@ -165,38 +162,11 @@
     <ClCompile Include="Render\AutoClip.cpp">
       <Filter>Render</Filter>
     </ClCompile>
-    <ClCompile Include="RenderSkia\RenderFactory_Skia.cpp">
-      <Filter>RenderSkia</Filter>
-    </ClCompile>
-    <ClCompile Include="RenderSkia\Render_Skia.cpp">
-      <Filter>RenderSkia</Filter>
-    </ClCompile>
-    <ClCompile Include="RenderSkia\Bitmap_Skia.cpp">
-      <Filter>RenderSkia</Filter>
-    </ClCompile>
     <ClCompile Include="Render\BitmapAlpha.cpp">
       <Filter>Render</Filter>
     </ClCompile>
-    <ClCompile Include="RenderSkia\Pen_Skia.cpp">
-      <Filter>RenderSkia</Filter>
-    </ClCompile>
-    <ClCompile Include="RenderSkia\SkTextBox.cpp">
-      <Filter>RenderSkia</Filter>
-    </ClCompile>
-    <ClCompile Include="RenderSkia\SkUtils.cpp">
-      <Filter>RenderSkia</Filter>
-    </ClCompile>
-    <ClCompile Include="RenderSkia\Brush_Skia.cpp">
-      <Filter>RenderSkia</Filter>
-    </ClCompile>
-    <ClCompile Include="RenderSkia\Path_Skia.cpp">
-      <Filter>RenderSkia</Filter>
-    </ClCompile>
     <ClCompile Include="RenderGdiPlus\Matrix_Gdiplus.cpp">
       <Filter>RenderGdiPlus</Filter>
-    </ClCompile>
-    <ClCompile Include="RenderSkia\Matrix_Skia.cpp">
-      <Filter>RenderSkia</Filter>
     </ClCompile>
     <ClCompile Include="third_party\xml\pugixml.cpp">
       <Filter>third_party\xml</Filter>
@@ -212,9 +182,6 @@
     </ClCompile>
     <ClCompile Include="RenderGdiPlus\Font_GDI.cpp">
       <Filter>RenderGdiPlus</Filter>
-    </ClCompile>
-    <ClCompile Include="RenderSkia\Font_Skia.cpp">
-      <Filter>RenderSkia</Filter>
     </ClCompile>
     <ClCompile Include="Core\ImageManager.cpp">
       <Filter>Core</Filter>
@@ -608,41 +575,14 @@
     <ClInclude Include="Render\AutoClip.h">
       <Filter>Render</Filter>
     </ClInclude>
-    <ClInclude Include="RenderSkia\RenderFactory_Skia.h">
-      <Filter>RenderSkia</Filter>
-    </ClInclude>
-    <ClInclude Include="RenderSkia\Render_Skia.h">
-      <Filter>RenderSkia</Filter>
-    </ClInclude>
-    <ClInclude Include="RenderSkia\Bitmap_Skia.h">
-      <Filter>RenderSkia</Filter>
-    </ClInclude>
     <ClInclude Include="Render\BitmapAlpha.h">
       <Filter>Render</Filter>
-    </ClInclude>
-    <ClInclude Include="RenderSkia\Pen_Skia.h">
-      <Filter>RenderSkia</Filter>
-    </ClInclude>
-    <ClInclude Include="RenderSkia\SkTextBox.h">
-      <Filter>RenderSkia</Filter>
-    </ClInclude>
-    <ClInclude Include="RenderSkia\SkUtils.h">
-      <Filter>RenderSkia</Filter>
-    </ClInclude>
-    <ClInclude Include="RenderSkia\Brush_Skia.h">
-      <Filter>RenderSkia</Filter>
-    </ClInclude>
-    <ClInclude Include="RenderSkia\Path_Skia.h">
-      <Filter>RenderSkia</Filter>
     </ClInclude>
     <ClInclude Include="Render\RenderConfig.h">
       <Filter>Render</Filter>
     </ClInclude>
     <ClInclude Include="RenderGdiPlus\Matrix_Gdiplus.h">
       <Filter>RenderGdiPlus</Filter>
-    </ClInclude>
-    <ClInclude Include="RenderSkia\Matrix_Skia.h">
-      <Filter>RenderSkia</Filter>
     </ClInclude>
     <ClInclude Include="third_party\xml\pugiconfig.hpp">
       <Filter>third_party\xml</Filter>
@@ -661,9 +601,6 @@
     </ClInclude>
     <ClInclude Include="RenderGdiPlus\Font_GDI.h">
       <Filter>RenderGdiPlus</Filter>
-    </ClInclude>
-    <ClInclude Include="RenderSkia\Font_Skia.h">
-      <Filter>RenderSkia</Filter>
     </ClInclude>
     <ClInclude Include="Core\ImageManager.h">
       <Filter>Core</Filter>
